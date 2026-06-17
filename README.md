@@ -24,19 +24,21 @@ The application reads data from the spreadsheet, automatically fills the templat
 
 ## Installation
 
+Create and activate a Python virtual environment, then install the required dependencies:
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r system/requirements.txt
 ```
 
 ## Usage
 
 1. Create or fill the `items.xlsx` spreadsheet.
-2. Run the application:
+2. Run the application from the project's root directory:
 
 ```bash
-python main.py
+python system/main.py
 ```
 
 3. Enter the applicant's name when prompted.
@@ -114,21 +116,24 @@ O sistema lê os dados da planilha, preenche automaticamente os campos do docume
 * python-docx
 * openpyxl
 
-## Instalação:
+## Instalação
+
+Crie e ative um ambiente virtual Python, acesse a pasta do sistema e instale as dependências necessárias:
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+cd system
 pip install -r requirements.txt
 ```
 
-## Como Utilizar:
+## Como Utilizar
 
-1. Crie ou preencha a planilha items.xlsx.
-2. Execute o programa: 
+1. Crie ou preencha a planilha `items.xlsx`.
+2. Execute o programa a partir da raiz do projeto:
 
 ```bash
-python main.py
+python system/main.py
 ```
 
 3. Informe o nome do solicitante quando solicitado.
